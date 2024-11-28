@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+h1{
+font-size: 88px;
+font-weight: 500;
+line-height: 93px;
+text-align: center;
+margin-top: 114px;
+}
+header{
+    background: #282829;
+    padding: 15px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    width: 393px;
+    text-align: center;
+}
+.card h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 114px;
+    margin-bottom: 102px;
+}
